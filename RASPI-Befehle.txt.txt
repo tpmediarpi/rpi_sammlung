@@ -1,3 +1,3 @@
-CPU Temperatur auslesen
+#CPU Temperatur auslesen
 vcgencmd measure_temp
 
