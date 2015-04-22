@@ -1,3 +1,23 @@
 #CPU Temperatur auslesen
 vcgencmd measure_temp
 
+#Daten der Netzwerkinterfaces anzeigen
+ifconfig 
+
+# WLAN-Daten anzeigen
+iwlist wlan0 scan
+
+#Netzwerk-Client-Verbindungstest
+ping 192.168.178.1
+
+#Verbindungstest mit Google
+ping google.com
+
+#Netzwerkeinstellungen vornehmen
+sudo nano /etc/network/interfaces
+
+#Definition des Nameservers (DNS) festlegen
+sudo nano /etc/resolv.conf
+
+#Hostname des Raspberry Pi im Netzwerk bestimmen
+sudo nano /etc/hostname
